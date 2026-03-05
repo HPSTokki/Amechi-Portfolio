@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import 'tailwindcss';
+@plugin 'daisyui';
+
+@theme {
+    --color-first: #000957;
+    --color-second: #FFEB00;
+    --color-third: #577BC1;
+    --color-fourth: #0065F8;
+    --font-standard: 'Open sans';
+    --font-logo: 'Orbitron';
+}
+
+@keyframes fade-in {
+	from { opacity:0; transform: translateY(10px); }
+	to { opacity:1; transform: translateY(0); }
+}
+
+@keyframes slide-up {
+	from { opacity:0; transform: translateY(40px); }
+	to { opacity:1; transform: translateY(0); }
+}
+
+.animate-fade-in{
+	animation: fade-in .8s ease forwards;
+}
+
+.animate-slide-up{
+	animation: slide-up .8s ease forwards;
+}
+
+@keyframes reveal {
+	from {
+		opacity:0;
+		transform:translateY(30px);
+	}
+	to{
+		opacity:1;
+		transform:translateY(0);
+	}
+}
+
+.section-reveal{
+	animation: reveal .7s ease forwards;
+}
