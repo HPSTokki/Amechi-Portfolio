@@ -128,6 +128,7 @@
 					<p>> CSS █████████</p>
 					<p>> Tailwind █████████</p>
 					<p>> Svelte ███████</p>
+					<p>> FastAPI ██████</p>
 
 					<p class="pt-2 opacity-80">Tools</p>
 					<p>> Git █████████</p>
@@ -164,14 +165,14 @@
 
 					<p><span class="text-success">$</span> ls projects/</p>
 
-					<p>> portfolio.dev</p>
+					<p>> amechi-portolio.vercel.app</p>
 					<p class="opacity-60">Personal developer portfolio</p>
 
-					<p>> devtools.cli</p>
-					<p class="opacity-60">Developer productivity CLI</p>
+					<p>> Online Veterinary Appointment System</p>
+					<p class="opacity-60">Online Vet Appointment and Booking for local veterinary clinic</p>
 
-					<p>> startup-landing</p>
-					<p class="opacity-60">Landing page for SaaS product</p>
+					<p>> Todo List with Tauri</p>
+					<p class="opacity-60">Simple Todo List made with Tauri for Native Desktop Application</p>
 
 					<p class="pt-4">
 						<span class="text-success">$</span>
@@ -203,9 +204,9 @@
 
 					<p><span class="text-success">$</span> contact --info</p>
 
-					<p>> email: rain@email.dev</p>
-					<p>> github: github.com/rain</p>
-					<p>> linkedin: linkedin.com/in/rain</p>
+					<p>> email: alexanderaguirresotto@gmail.com</p>
+					<p>> github: github.com/HPSTokki</p>
+					<p>> linkedin: linkedin.com/in/rain-alexander-aguirre</p>
 
 					<div class="pt-4 flex gap-4">
 						<button class="btn btn-primary btn-sm">Send Email</button>
